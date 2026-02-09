@@ -1,0 +1,172 @@
+/* =========================
+   リセット＆基本設定
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff8fb; /* 柔らかいピンク系の背景 */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================
+   ヘッダー
+========================= */
+.site-header {
+  background: linear-gradient(90deg, #f8d7e3, #d0e7f9); /* ピンク→ブルー */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #f0c0d9;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  color: #b03060;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
+/* =========================
+   ナビゲーション
+========================= */
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #5c5c8a;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #b03060;
+}
+
+/* =========================
+   ヒーローセクション
+========================= */
+.hero {
+  background: linear-gradient(to right, #ffe3f0, #d0e7f9);
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #b03060;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b0d4f1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #90c0e0;
+}
+
+/* =========================
+   セクション共通
+========================= */
+.section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* 2カラム */
+.two-col {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.two-col > div {
+  flex: 1 1 300px;
+}
+
+.profile-box img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+/* =========================
+   スキル
+========================= */
+.chips {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.chips li {
+  background-color: #f8d7e3;
+  color: #b03060;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+/* =========================
+   連絡先
+========================= */
+#contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #5c5c8a;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #b03060;
+}
+
+/* =========================
+   フッター
+========================= */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8d7e3;
+  color: #333;
+  border-top: 2px solid #d0e7f9;
+}
+
+.site-footer .small {
+  font-size: 0.9rem;
+}
